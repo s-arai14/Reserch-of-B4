@@ -7,20 +7,20 @@
       library ieee;  
       use ieee.std_logic_ 1164.all;  
   
-      use *ライブラリ名*;  
+      use <em>ライブラリ名</em>;  
 
 - entity(入出力ポート定義)  
   
-      entity *コンポート名*  
+      entity <em>コンポート名</em>  
       	port(	A, B:	in	std_logic;
 	        X, Y	out	std_logic	);  
-      end	*コンポート名*;  
+      end	<em>コンポート名</em>;  
   
-      port (ポート名: 入/出力区別　データ型);  
+      port (<em>ポート名: 入/出力区別　データ型</em>);  
 
 - architecture(内部回路の定義)  
   
-      architecture  RTL  of  *コンポート名*  
+      architecture  RTL  of  <em>コンポート名</em>  
       begin  
 	  X <= A and B;  
     	  Y <= A or B;  
