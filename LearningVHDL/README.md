@@ -2,14 +2,14 @@
 # VHDL学習メモ
 ---
 ## プログラム構成  
-- ライブラリインポート  
+### ライブラリインポート  
   
       library ieee;  
       use ieee.std_logic_ 1164.all;  
   
       use *ライブラリ名* ;  
 
-- entity(入出力ポート定義)  
+### entity(入出力ポート定義)  
   
       entity *コンポート名*  
       	port(	A, B:	in	std_logic;
@@ -18,7 +18,7 @@
   
       port (*ポート名: 入/出力区別　データ型*);  
 
-- architecture(内部回路の定義)  
+### architecture(内部回路の定義)  
   
       architecture  RTL  of  *コンポート名*  
       begin  
