@@ -14,7 +14,7 @@
     entity *コンポート名*  
     	port(	A, B:	in	std_logic;  
     		X, Y	out	std_logic	);  
-    end	*abc*;  
+    end	*コンポート名*;  
   
     port (*ポート名: 入/出力区別　データ型*);  
 
