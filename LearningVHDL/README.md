@@ -7,11 +7,11 @@
     library ieee;  
     use ieee.std_logic_ 1164.all;  
   
-    use *ライブラリ名* ;  
+    use _ライブラリ名_ ;  
 
 ### entity(入出力ポート定義)  
   
-    entity _コンポート名_  
+    entity *コンポート名*  
     	port(	A, B:	in	std_logic;  
     		X, Y	out	std_logic	);  
     end	*コンポート名*;  
